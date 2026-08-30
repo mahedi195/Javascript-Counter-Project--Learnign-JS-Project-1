@@ -1,4 +1,12 @@
 
+
+document.getElementById('additionBtn').addEventListener('click', increase);
+document.getElementById('subtratBtn').addEventListener('click', decrease);
+document.getElementById('resetBtn').addEventListener('click', reset);
+document.getElementById('saveBtn').addEventListener('click', save);
+document.getElementById('loadBtn').addEventListener('click', load);
+
+
 let value = 0;
 
 load();
